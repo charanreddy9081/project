@@ -6,6 +6,8 @@ import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
+import { BrowserRouter } from "react-router-dom";
+
 root.render(
   <React.StrictMode>
     <BrowserRouter basename="/project">
