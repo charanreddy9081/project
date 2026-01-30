@@ -10,7 +10,7 @@ import Layout from "@/components/Layout";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/project">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<HomePage />} />
@@ -20,6 +20,7 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
+
       <Toaster position="top-center" richColors />
     </div>
   );
